@@ -18,6 +18,10 @@ h2 {
   font-size: 36px;
   text-align: center;
 }
+h3{
+  font-size:30px;
+  text-align: center;
+}
 a {
   text-decoration: none;
   color: rgb(192, 118, 6);
@@ -26,7 +30,7 @@ a {
   padding-left: 30px;
   padding-right: 30px;
 }
-.main_Images {
+.main_Images, .product_Images{
   width: 50%;
   height: auto;
 }
@@ -34,11 +38,10 @@ a {
 .formularioServicios {
   height: 80%;
   width: 80%;
-  border: solid 1px black;
   justify-content: center;
-  padding: 20%;
+  padding: 10%;
 }
-.mainContacto,
+.mainHistoria,
 .mainServicios {
   display: flex;
   justify-content: center;
@@ -76,6 +79,7 @@ footer {
   padding: 20px;
   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
   position: relative;
+  padding-bottom: 100px;
 }
 .formulario__titulo {
   text-align: center;
@@ -117,4 +121,16 @@ footer {
 }
 .fijar {
   margin-top: -135px;
+}
+.prodfila1{
+  padding-bottom:15px;
+}
+.prodfila2{
+  padding-top:10px;
+  width:70%;
+  height:auto;
+}
+.textoHistoria{
+  padding-top:30px;
+  padding-bottom:30px;
 }
