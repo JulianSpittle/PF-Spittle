@@ -37,7 +37,8 @@ a {
   padding-right: 30px;
 }
 
-.main_Images, .product_Images {
+.main_Images,
+.product_Images {
   width: 50%;
   height: auto;
 }
@@ -102,7 +103,9 @@ footer {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.formulario__input, .formulario__label, .formulario__submit {
+.formulario__input,
+.formulario__label,
+.formulario__submit {
   display: block;
   width: 100%;
   font-size: 1.3em;
@@ -157,4 +160,4 @@ footer {
 .textoHistoria {
   padding-top: 30px;
   padding-bottom: 30px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
