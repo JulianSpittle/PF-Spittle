@@ -1,3 +1,4 @@
+@import "./variables";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap");
 @import "./contacto";
 @import "./footer";
@@ -17,7 +18,7 @@ html {
   width: 100%;
 }
 body {
-  background-color: white;
+  background-color: $blanco;
   max-height: 100%;
   width: 100%;
 }
@@ -31,5 +32,5 @@ h3 {
 }
 a {
   text-decoration: none;
-  color: rgb(192, 118, 6);
+  color: $naranja;
 }
