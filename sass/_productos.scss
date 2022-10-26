@@ -3,11 +3,9 @@
 }
 .prodfila2 {
   padding-top: 10px;
-  width: 70%;
-  height: auto;
+  @include tamaños (70%,auto);
 }
 .main_Images,
 .product_Images {
-  width: 50%;
-  height: auto;
+  @include tamaños (50%,auto);
 }

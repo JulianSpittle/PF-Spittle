@@ -3,14 +3,15 @@
   padding-bottom: 30px;
   text-align: center;
 }
-.historialeft {
-  justify-content: left;
-  text-align: left;
-}
-.historiaright{
-  justify-content: right;
-  text-align: right;
-}
+
 .formularioHistoria {
   padding: 10%;
+  .historialeft {
+    justify-content: left;
+    text-align: left;
+  }
+  .historiaright{
+    justify-content: right;
+    text-align: right;
+  }
 }

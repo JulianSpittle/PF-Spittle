@@ -9,8 +9,7 @@
   position: relative;
   padding-bottom: 100px;
 }
-
-.formulario__titulo {
+.formulario .formulario__titulo {
   text-align: center;
   margin-top: 0;
   padding-bottom: 16px;
@@ -59,8 +58,8 @@
 
 .formularioContacto,
 .formularioServicios {
-  height: 80%;
   width: 80%;
+  height: 80%;
   justify-content: center;
   padding: 10%;
 }
@@ -93,24 +92,22 @@ footer {
   text-align: center;
 }
 
-.historialeft {
+.formularioHistoria {
+  padding: 10%;
+}
+.formularioHistoria .historialeft {
   justify-content: left;
   text-align: left;
 }
-
-.historiaright {
+.formularioHistoria .historiaright {
   justify-content: right;
   text-align: right;
 }
 
-.formularioHistoria {
-  padding: 10%;
-}
-
 .formularioContacto,
 .formularioServicios {
-  height: 80%;
   width: 80%;
+  height: 80%;
   justify-content: center;
   padding: 10%;
 }
@@ -125,8 +122,8 @@ footer {
 }
 
 .regalo {
-  height: auto;
   width: 50%;
+  height: auto;
 }
 
 .nav-item {
@@ -139,8 +136,7 @@ footer {
   padding-top: 50px;
 }
 
-.textoalfajor,
-.textobombones {
+.textoalfajor, .textobombones {
   text-align: center;
   padding-top: 10rem;
   size: 128px;

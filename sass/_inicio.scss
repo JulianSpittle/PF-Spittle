@@ -2,16 +2,17 @@
 .alfajor {
   padding-top: 50px;
 }
-.textoalfajor,
-.textobombones {
+.textoalfajor {
   text-align: center;
   padding-top: 10rem;
   size: 128px;
 }
+.textobombones {
+  @extend .textoalfajor
+}
 .main_Images,
 .product_Images {
-  width: 50%;
-  height: auto;
+  @include tamaños (50%,auto);
 }
 .col-sm-6:hover .main_Images {
   -webkit-transform: scale(1.3);
