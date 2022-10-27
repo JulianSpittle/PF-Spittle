@@ -7,11 +7,9 @@
 .formularioHistoria {
   padding: 10%;
   .historialeft {
-    justify-content: left;
-    text-align: left;
+    @include formateotextos(left,left);
   }
   .historiaright{
-    justify-content: right;
-    text-align: right;
+    @include formateotextos(right,right);
   }
 }

@@ -7,8 +7,7 @@
 .mainHistoria,
 .mainServicios {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  @include formateotextos(center,center);
   @include tamaños (100%,750px);
 }
 .regalo{

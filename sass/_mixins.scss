@@ -2,3 +2,7 @@
     width:$width;
     height:$height;
 }
+@mixin formateotextos ($justify-content,$text-align){
+    justify-content: $justify-content;
+    text-align: $text-align;
+}
